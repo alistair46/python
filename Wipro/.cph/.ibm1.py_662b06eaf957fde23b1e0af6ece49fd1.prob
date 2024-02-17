@@ -1,0 +1,1 @@
+{"name":"Local: ibm1","url":"d:\\PYTHON\\Wipro\\ibm1.py","tests":[{"id":1633882692047,"input":"15","output":"1     \n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\PYTHON\\Wipro\\ibm1.py","group":"local","local":true}

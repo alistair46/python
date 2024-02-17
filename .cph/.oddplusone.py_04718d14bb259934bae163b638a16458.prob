@@ -1,0 +1,1 @@
+{"name":"Local: oddplusone","url":"d:\\PYTHON\\oddplusone.py","tests":[{"id":1632558817173,"input":"245567","output":"354476"},{"id":1632562110233,"input":"56879","output":"47968"},{"id":1632562150920,"input":"99998855","output":"88889944"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\PYTHON\\oddplusone.py","group":"local","local":true}

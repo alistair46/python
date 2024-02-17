@@ -1,0 +1,1 @@
+{"name":"Local: wipro5","url":"d:\\PYTHON\\wipro5.py","tests":[{"id":1632577554501,"input":"1\n3 3 3 4 4 2","output":"11.52724639565124"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\PYTHON\\wipro5.py","group":"local","local":true}
