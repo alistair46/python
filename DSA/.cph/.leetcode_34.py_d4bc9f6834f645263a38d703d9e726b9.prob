@@ -1,0 +1,1 @@
+{"name":"Local: leetcode_34","url":"d:\\DEVELOPNMENT\\PYTHON\\DSA\\leetcode_34.py","tests":[{"id":1709193406761,"input":"5 7 7 8 8 10\n8","output":"3,4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DEVELOPNMENT\\PYTHON\\DSA\\leetcode_34.py","group":"local","local":true}
