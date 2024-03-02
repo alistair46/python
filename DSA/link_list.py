@@ -101,3 +101,4 @@ if __name__=='__main__':
    b.print()
    b.insert_at(0,"figs")
    b.print()
+    
