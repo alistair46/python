@@ -46,7 +46,40 @@ class link_list:
             count+=1
             itr=itr.next
         return count
+# TO Remove an element form link_list at given index
+    def remove_at(self,index):
+        if index<0 or index>=self.get_length():
+            raise Exception ("invalid index")
+        if index==0:
+            self.head=self.head.next
+            return
+        count =0
+        itr=self.head
+        while itr:
+            if count==index-1:
+                itr.next=itr.next.next
+                break
 
+            itr =itr.next
+            count+=1
+# TO Insert an Element at given index:
+    def insert_at(self,index,data):
+        if index<0 or index>=self.get_length():
+            raise Exception ("invalid index")
+        if index==0:
+            self.insert_at_begining(data)
+            return
+        count =0
+        itr=self.head
+        while itr:
+            if count==index-1:
+                node=Node(data,itr.next)
+                itr.next=node
+                break
+
+            itr =itr.next
+            count+=1
+        
 
 if __name__=='__main__':
 # manually adding data and creating link list
@@ -64,3 +97,7 @@ if __name__=='__main__':
    b.insert_values(["apple","banana","grapes","mango"])
    b.print()
    print("length of Link_List is:",b.get_length())
+   b.remove_at(2)
+   b.print()
+   b.insert_at(0,"figs")
+   b.print()
