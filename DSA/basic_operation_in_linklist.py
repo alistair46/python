@@ -1,8 +1,7 @@
 '''Given a Linked List, the task is to insert a new node in this given Linked List at the following positions: 
 
 1.)At the front of the linked list  
-2.)After a given node. 
-3.)At the end of the linked list.'''
+2.)After a given node. '''
 
 class Node: #Represent indivisual element in an link list
     def __init__(self,data=None,next=None) -> None:
