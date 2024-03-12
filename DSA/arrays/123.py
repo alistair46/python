@@ -1,0 +1,1 @@
+//write a pythone code to add 6 arrays?     
